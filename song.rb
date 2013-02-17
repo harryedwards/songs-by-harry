@@ -1,6 +1,6 @@
 require 'dm-core'
 require 'dm-migrations'
-require "dm-validations"
+# require "dm-validations"
 
 configure do
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
